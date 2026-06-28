@@ -10,7 +10,7 @@ interface Character {
 const strider: Character = {
     name: 'Strider',
     hp: 100,
-    skills: ['Bash','Counter'],
+    skills: skills,
     
 }
 
