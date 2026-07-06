@@ -29,6 +29,10 @@ const { song:anotherSong,
 
 const { author } = details;
 
-console.log('Song: ', anotherSong);
-console.log('Song: ', songDuration);
-console.log('Song: ', author);
+// console.log('Song: ', anotherSong);
+// console.log('Song: ', songDuration);
+// console.log('Song: ', author);
+
+const [ , , trunks = 'Not Found' ] = ['Goku', 'Vegeta']
+
+console.log('Personaje 3:', trunks);
